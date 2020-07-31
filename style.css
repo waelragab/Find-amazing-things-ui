@@ -1,0 +1,150 @@
+@font-face{
+    font-family: Muli;
+    src: url("fonts/Muli.ttf");
+}
+@font-face{
+    font-family: MuliBold;
+    src: url("fonts/Muli-Bold.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #54B1F1;
+}
+.container {
+    width: 90vw;
+    height: auto;
+    background: url("images/aerial-view-of-people-swimming-on-sea-4327786.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    padding-bottom: 40px;
+}
+nav{
+    width: 90vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Muli";
+    margin-bottom: 100px;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+.btn-signup{
+    background-color: #35C2CF;
+    color: #fff;
+    height: 50px;
+    padding: 10px 25px;
+    border-radius:  8px;
+    border: none;
+    outline: none;
+}
+.center-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 150px;
+
+}
+.center-content h1{
+    color: #fff;
+    max-width: 500px;
+}
+.form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    width: 60vw;
+    background-color: #fff;
+    color: #6E6C81;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+}
+input{
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #5F5D74;
+    text-transform: capitalize;
+}
+.form i{
+    margin-left: 25px;
+} 
+input:first-of-type{
+    width: 40%;
+    margin-left: 25px;
+}
+input:last-of-type{
+    width: 30%;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.btn-search{
+    height: 70px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #F89259;
+    color: #fff;
+    width: 15%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tours-container{
+    width: 90%;
+    margin-left: calc((10% - 40px) /2);
+    padding: 40px 20px;
+    height: autp;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.tour{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.tour h2{
+    margin-bottom: 10px;
+}
+.tour small{
+    color: #5F5D74;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-family: "Muli";
+}
+.tour span{
+    background-color: #F0F0F9;
+    padding: 5px 10px;
+    border-radius: 10px;
+    max-width: 50%;
+    font-family: "Muli";
+    color: #6E6C81;
+}
